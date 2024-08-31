@@ -1,0 +1,91 @@
+/* define a cor de fundo da página*/
+body {
+    background-color: #a3a3a3;
+  }
+/* h2 / h3 / a = parametros para formatar a cor de texto e alinhamento*/
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+}
+
+a{
+  color: #333;
+  text-align: center;
+}
+
+/* formatando o formulario: largura, margem e preenchimento*/
+.form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/*margens arredondada da imagem "cantos"*/
+img{
+    border-radius: 40px;  
+}
+/* formatando o menu: flexbox para centralizar o conteúdo e remove o estilo de lista */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*lista do menu: define a margem entre os itens */
+.menu li {
+    margin: 0 10px;
+}
+
+/* menu estilizado, troca de cor e ilusão de movimentação*/
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #a3a3a3;
+ }
+.menu li{float:left;}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #0a0808;
+  color: white;
+}
+
+
+/* Centraliza a tabela na página */
+table{
+  margin: 0 auto;
+ }
+
+ /*parágrafos: fonte, tamanho, cor, alinhamento e espaçamento */
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #030000;
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1;
+  text-indent: 1em;
+}
+
+/*centraliza o texto e define o tamanho da fonte */
+.rodape {
+     text-align: center;
+     font-size: xx-small;
+  }
